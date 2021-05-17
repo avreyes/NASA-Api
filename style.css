@@ -1,0 +1,24 @@
+html {
+    padding: 15px;
+    background-color: black;
+}
+
+body{
+    
+    background-color: black;
+    color: white;
+
+}
+
+#content {
+   object-position: center;
+   
+}
+
+button {
+    height: 150px;
+    width: 596px;
+    object-position: center;
+}
+
+
