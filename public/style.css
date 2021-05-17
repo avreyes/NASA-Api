@@ -1,23 +1,96 @@
 html {
-    padding: 15px;
-    background-color: black;
-}
+	height: 100%;
+	max-height: 600px;
+	width: 1000px;
+	background-color: black;
+	background-image:		
+		url('./assets/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg');
+	background-repeat: repeat;
+	/* background-position: 
+		100% 100%; */
+	background-size: 
+		100px, 100px,;
+	animation: 120s para infinite linear;
+    overflow-x: hidden;
+	}
 
-body{
-    background-color: black;
-    color: white;
+@keyframes para {
+	100% {
+		background-position: 
+			-5px 100%;
+		}
+	}
 
-}
-
-#content {
-   object-position: center;
+body {
+    
+  background-color: transparent;
    
 }
 
-button {
-    height: 150px;
-    width: 596px;
+h1 {
+    font-family: 'Bebas Neue';
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 4px;
+    font-size: 4em;
+    font-weight: bolder;
+    text-shadow: 4px 4px rgba(102, 62, 16, 0.527);
 }
+
+.container {
+    object-position: center;
+    margin-left: 849px;
+    margin-top: -660px;
+    
+}
+
+button {
+    margin-top: 540px;
+    height: 150px;
+    width: 196px;
+
+}
+
+#search {
+    border: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    opacity: 0.75;
+
+}
+
+.container1{
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 50%;
+    text-align: center;
+    margin-left: 29em;
+}
+
+
+#content {
+   margin-left: 56px;
+}
+
+#title {
+    font-size: 1rem;
+    color: white;
+}
+
+#caption {
+    color: white;
+}
+
+
+#copywrite {
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+
+
+
 
 
 

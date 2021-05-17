@@ -5,6 +5,7 @@ let searchButton = document.querySelector("#search");
 searchButton.addEventListener("click", ()=>{
     console.log("button pressed");
     sendApiRequest()
+    
 })
 
 
@@ -21,8 +22,10 @@ async function sendApiRequest(){ //this function is calling to request data from
 
 //function that does something with the data received from the API. The name of the function should be customized to whatever you are doing with 
 function useApiData(data){
-    document.querySelector("#caption").innerHTML = data.explanation //retreiving a specific piece of data from API, in this case it is the explanation
-    document.querySelector("#content").innerHTML = `<img src="${data.url}" class="img-fluid" style="height: 580px; width: 420px;">` 
+    document.querySelector("#content").innerHTML = `<img src="${data.url}" class="img-fluid" style="height: 580px; width: 420px;">`
+    document.querySelector("#title").innerHTML = data.title
+    document.querySelector("#caption").innerHTML = data.explanation 
+    document.querySelector("#copywrite").innerHTML = data.copyright
     
 }
 
