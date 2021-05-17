@@ -4,7 +4,6 @@ html {
 }
 
 body{
-    
     background-color: black;
     color: white;
 
@@ -18,7 +17,7 @@ body{
 button {
     height: 150px;
     width: 596px;
-    object-position: center;
 }
+
 
 
