@@ -1,17 +1,18 @@
 html {
-	height: 100%;
-	max-height: 600px;
-	width: 1000px;
+	/* height: 100%; */
+	max-height: 1000px;
+	width: 150vw;
+    background-size: cover;
 	background-color: black;
 	background-image:		
 		url('./assets/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg');
 	background-repeat: repeat;
 	/* background-position: 
 		100% 100%; */
-	background-size: 
-		100px, 100px,;
 	animation: 120s para infinite linear;
     overflow-x: hidden;
+    
+
 	}
 
 @keyframes para {
@@ -22,7 +23,7 @@ html {
 	}
 
 body {
-    
+  margin: 1vw;  
   background-color: transparent;
    
 }
@@ -31,22 +32,39 @@ h1 {
     font-family: 'Bebas Neue';
     color: rgba(255, 255, 255, 0.829);
     letter-spacing: 4px;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bolder;
     text-shadow: 4px 4px rgba(102, 62, 16, 0.527);
 }
 
-.container {
-    object-position: center;
-    margin-left: 849px;
-    margin-top: -660px;
-    
+h2 {
+    font-family: 'Bebas Neue';
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 4px;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 4px 4px rgba(102, 62, 16, 0.527);
 }
 
+
+p {
+    font-family: 'Bebas Neue';
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 4px;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 4px 4px rgba(102, 62, 16, 0.527);
+   
+}
+
+
+
+
 button {
-    margin-top: 540px;
-    height: 150px;
-    width: 196px;
+    margin: 2vw;
+    
+    height: 89vh;
+    width: 156vw;
 
 }
 
@@ -59,25 +77,30 @@ button {
 
 }
 
-.container1{
-    background-color: rgba(0, 0, 0, 0.644);
-    width: 50%;
-    text-align: center;
-    margin-left: 29em;
+#container {
+    margin-left: 25vw;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 56vw;
+   
 }
 
 
 #content {
-   margin-left: 56px;
+   margin-left: 6vw;
+   padding: 20px;
+
 }
 
 #title {
-    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
     color: white;
 }
 
 #caption {
     color: white;
+    text-align: left;
 }
 
 
